@@ -21,7 +21,7 @@
 >- [Visualize Data](http://localhost:8888/WebinterfaceVisFilter.php)
 >- [Check the cluster health status](http://localhost:9200/_cat/indices?v)
 
-### Output example
+## Output example
 
 ![image](https://github.com/shellswestern/Web_App/blob/master/output/vis1.png)
 
