@@ -17,7 +17,7 @@
 4. Run MAMP, Elasticsearch, Kibana (in order)
 
 5. Use this web app to:
-  * [Upload Data](http://localhost:8888/WebinterfaceDataMgt.php)
-  * [Visualize Data](http://localhost:8888/WebinterfaceVisFilter.php)
-  * [Check the cluster health status](http://localhost:9200/_cat/indices?v)
+  - [Upload Data](http://localhost:8888/WebinterfaceDataMgt.php)
+  - [Visualize Data](http://localhost:8888/WebinterfaceVisFilter.php)
+  - [Check the cluster health status](http://localhost:9200/_cat/indices?v)
 
