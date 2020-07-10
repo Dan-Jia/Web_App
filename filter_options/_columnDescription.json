@@ -1,0 +1,6224 @@
+[
+  {
+    "id": "absorbit0",
+    "label": "absOrbit",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "absorbit1",
+    "label": "absOrbit",
+    "desc": "absOrbit",
+    "hierarchy": [
+      "orbitInfo",
+      "orbitParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "accessregion0",
+    "label": "accessRegion",
+    "desc": "string indicating that the tile is in a certain region",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "acquisitionitemi0",
+    "label": "acquisitionItemId",
+    "desc": "acquisitionItemId",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "acquisitionItemIdList",
+    "desc": "acquisitionItemIdList",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ]
+  },
+  {
+    "label": "acquisitionMode",
+    "desc": "acquisition mode",
+    "hierarchy": [
+      "acquisitionParameters"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "acquisitionParameters",
+    "desc": "acquisitionParameters",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM"
+    ]
+  },
+  {
+    "label": "acquisitionTimes",
+    "desc": "acquisitionTimes",
+    "hierarchy": [
+      "acquisitionParameters"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "id": "actual_no_of_lin0",
+    "label": "actual_No_of_Lines",
+    "desc": "actual_No_of_Lines",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "actual_pixels0",
+    "label": "actual_Pixels",
+    "desc": "actual_Pixels",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "alongtrackbaseli0",
+    "label": "alongTrackBaseline",
+    "desc": "along track baseline",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "altitudeCoverage",
+    "desc": "altitude coverage of the product item",
+    "hierarchy": [],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "id": "antennalookdirec3",
+    "label": "antennaLookDirection",
+    "desc": "look direction of the SAR antenna: Left or Right",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "antennalookdirec2",
+    "label": "antennaLookDirection",
+    "desc": "look direction of the SAR antenna: Left or Right",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "antennalookdirec0",
+    "label": "antennaLookDirection",
+    "desc": "look direction of the SAR antenna: Left of Right",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Character"
+  },
+  {
+    "id": "antennareceiveco2",
+    "label": "antennaReceiveConfiguration",
+    "desc": "receive antenna configuration: single receive antenna, dual receive antenna",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "antennareceiveco0",
+    "label": "antennaReceiveConfiguration",
+    "desc": "receive antenna configuration: single receive antenna, dual receive antenna (derived from ISP)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "antennareceiveco3",
+    "label": "antennaReceiveConfiguration",
+    "desc": "receive antenna configuration: single receive antenna, dual receive antenna",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "appliedto0",
+    "label": "appliedTo",
+    "desc": "appliedTo",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "appliedtoidentif0",
+    "label": "appliedToIdentifier",
+    "desc": "appliedToIdentifier",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Identifier"
+  },
+  {
+    "id": "areaofdemvalids0",
+    "label": "areaOfDEMValids",
+    "desc": "area of DEM valids in sqkm (pool: q_coverage_extension_land_qkm)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "areaofestimatedl0",
+    "label": "areaOfEstimatedLand",
+    "desc": "area of estimated land, based on Coh. Ampl +2, SRTM",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "areaofgshhsland0",
+    "label": "areaOfGSHHSLand",
+    "desc": "area of land in GSHHS in sqkm, includes no TDM information (pool: q_gshhs_extension_land_qkm)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "areaofpotentiall0",
+    "label": "areaOfPotentialLand",
+    "desc": "area of potential land, based on Coh. Ampl +2, SRTM",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "areaofsrtmland0",
+    "label": "areaOfSRTMLand",
+    "desc": "area of land in SRTM in sqkm, includes no TDM information (pool: q_srtm_extension_land_qkm)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "areaofvalidsinsr0",
+    "label": "areaOfValidsInSRTMLand",
+    "desc": "area of TDM valids falling into SRTM land in sqkm, (pool: q_valids_in_srtm_land_qkm)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "areaofvoidsoverl0",
+    "label": "areaOfVoidsOverLand2WAMs",
+    "desc": "area of voids in sqkm (wrt to allTDM pixels), where two out of MERIS, SRTM and TDM indicate land (pool: tbd.)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "areaofvoidsoverl1",
+    "label": "areaOfVoidsOverLand3WAMs",
+    "desc": "area of voids in sqkm (wrt to allTDM pixels), where MERIS, SRTM and TDM indicate land (pool: q_vol_outside_all_wam_qkm)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "auxDataFiles",
+    "desc": "list of aux data files",
+    "hierarchy": [
+      "productParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "id": "availability0",
+    "label": "availability",
+    "desc": "product item availability",
+    "hierarchy": [],
+    "definedBy": [
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ProductItem"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "averagecoherence0",
+    "label": "averageCoherence",
+    "desc": "average coherence",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "averageheighterr1",
+    "label": "averageHeightError",
+    "desc": "average height error",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "averageheighterr2",
+    "label": "averageHeightErrorFlat",
+    "desc": "average height error for slope<20% (valid pixel without water) (pool: q_height_error_flat_mean)",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "averageheighterr3",
+    "label": "averageHeightErrorSteep",
+    "desc": "average height error for slope<20% (valid pixel without water) (pool: q_height_error_flat_mean)",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "averageterrainhe1",
+    "label": "averageTerrainHeight",
+    "desc": "average terrain height",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "awifs_bit_select0",
+    "label": "aWiFS_Bit_Selection",
+    "desc": "aWiFS_Bit_Selection",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "azimuthCenter",
+    "desc": "azimuthCenter",
+    "hierarchy": [
+      "processingParameters",
+      "imageParameters",
+      "dopplerCentroidInfo"
+    ],
+    "definedBy": [
+      "TDM.SAR.L0",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "azimuthcenterfar0",
+    "label": "azimuthCenterFarRange",
+    "desc": "azimuth center far range (double)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "azimuthcentermid0",
+    "label": "azimuthCenterMidRange",
+    "desc": "azimuth center mid range (double)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "azimuthcenternea0",
+    "label": "azimuthCenterNearRange",
+    "desc": "azimuth center near range (double)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "azimuthStart",
+    "desc": "azimuthStart",
+    "hierarchy": [
+      "processingParameters",
+      "imageParameters",
+      "dopplerCentroidInfo"
+    ],
+    "definedBy": [
+      "TDM.SAR.L0",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "azimuthStop",
+    "desc": "azimuthStop",
+    "hierarchy": [
+      "processingParameters",
+      "imageParameters",
+      "dopplerCentroidInfo"
+    ],
+    "definedBy": [
+      "TDM.SAR.L0",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "beamList",
+    "hierarchy": [
+      "processingParameters",
+      "imageParameters",
+      "elevationBeamInfo"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "bestresolutionho0",
+    "label": "bestResolutionHorizontal",
+    "desc": "best horizontal DEM product resolution (Unit: [meter]) (pool: r_best_resolution_horizontal == r_if_resolution )",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "bestresolutionve0",
+    "label": "bestResolutionVertical",
+    "desc": "best vertical DEM product resolution (Unit: [meter]) (pool: r_best_resolution_vertical == q_height_error_min)",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "bottom0",
+    "label": "bottom",
+    "desc": "minimum altitude",
+    "hierarchy": [
+      "altitudeCoverage"
+    ],
+    "definedBy": [
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ProductItem"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "boundingBox",
+    "desc": "latitude/longitude box circumscribing a region",
+    "hierarchy": [
+      "spatialCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "label": "boundingBoxP5",
+    "desc": "bounding box of stereo/wide mono proudct",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "boundingCircle",
+    "desc": "circle circumscribing a region",
+    "hierarchy": [
+      "spatialCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "label": "boundingPolygon",
+    "desc": "polygon circumscribing a region",
+    "hierarchy": [
+      "spatialCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "id": "browse_image_siz0",
+    "label": "browse_Image_Size",
+    "desc": "browse_Image_Size",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "calibrationProcess",
+    "desc": "Calibration Process",
+    "hierarchy": [],
+    "definedBy": [
+      "FBI.MSC.L0"
+    ]
+  },
+  {
+    "label": "cartographicParameters",
+    "desc": "cartographic parameters",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract"
+    ]
+  },
+  {
+    "id": "cb_img_fname1",
+    "label": "cB_img_fname",
+    "desc": "CB_img_fname",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "center",
+    "desc": "center point",
+    "hierarchy": [
+      "spatialCoverage",
+      "boundingCircle"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "id": "centertime0",
+    "label": "centerTime",
+    "desc": "center time of time coverage",
+    "hierarchy": [
+      "temporalCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "CHAMP-PR_L2-DENS-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "Vertical-Electron-Density-Distribution"
+    ]
+  },
+  {
+    "label": "channel",
+    "desc": "channel",
+    "hierarchy": [],
+    "definedBy": [
+      "NOAA.AVHRR.LST_D"
+    ]
+  },
+  {
+    "id": "channel0",
+    "label": "channel",
+    "desc": "Channel",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "channelParameters",
+    "desc": "list of channels",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.RGI"
+    ]
+  },
+  {
+    "id": "chlorophyllmax0",
+    "label": "chlorophyllMax",
+    "desc": "maximal value for chlorophyll",
+    "hierarchy": [
+      "statistics"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.RWC_PCI",
+      "ENVISAT.MERIS.VA.L3.RWC_RTM"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "chlorophyllmin0",
+    "label": "chlorophyllMin",
+    "desc": "minimal value for chlorophyll",
+    "hierarchy": [
+      "statistics"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.RWC_PCI",
+      "ENVISAT.MERIS.VA.L3.RWC_RTM"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "cloud_score_aver2",
+    "label": "cloud_Score_Average",
+    "desc": "cloud_Score_Average",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "code0",
+    "label": "code",
+    "desc": "code abbreviation",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.INF",
+      "AIRRS.RGI",
+      "Base.TSX-1.SAR.L1B",
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "FBI.MSC.L0",
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct",
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "MODIS.L0",
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST",
+      "Occultation-Relative-TEC",
+      "RapidEye.RESA.L1B",
+      "RapidEye.RESA.L2A",
+      "RapidEye.RESA.L3A",
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "SWACI.GROUNDBASED.REG.GB.L2",
+      "SWACI.GROUNDBASED.SCINT.L1",
+      "SWACI.GROUNDBASED.TEC.EU.L2",
+      "SWACI.GROUNDBASED.TEC.GB.L2",
+      "SWACI.SLAB-THICKNESS.L2",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract",
+      "TDM.SAR.COSSC",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change",
+      "TerraSAR-X_SSC",
+      "Vertical-Column-Density",
+      "Vertical-Column-Density-Composite",
+      "Vertical-Electron-Density-Distribution",
+      "Vertical-Electron-Density-Profiles"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "commandedAcquisitionStartTime",
+    "desc": "commanded acquisition start time",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem",
+      "downlinkInfoFileParameters"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "commandedAcquisitionStopTime",
+    "desc": "commanded acquisition stop time",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem",
+      "downlinkInfoFileParameters"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "commandedcommonc0",
+    "label": "commandedCommonCooperativeMode",
+    "desc": "commandedCommonCooperativeMode",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "commandedstartti0",
+    "label": "commandedStartTimeUTC",
+    "desc": "CCSDS-Time (truncated to full second precision)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "commandedstoptim0",
+    "label": "commandedStopTimeUTC",
+    "desc": "CCSDS-Time (truncated to full second precision)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "cooperativemode0",
+    "label": "cooperativeMode",
+    "desc": "cooperativeMode",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "cooperativemode1",
+    "label": "cooperativeMode",
+    "desc": "cooperativeMode",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "cornerCoordinates",
+    "desc": "cornerCoordinates",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "id": "correction_code0",
+    "label": "correction_Code",
+    "desc": "Correction_Code",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "coverageCompleteness",
+    "desc": "coverage completeness",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ]
+  },
+  {
+    "label": "creation",
+    "desc": "product item creation information",
+    "hierarchy": [],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "label": "DASLog",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "DASParameters",
+    "desc": "DAS parameters",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "datatakeclass2",
+    "label": "datatakeClass",
+    "desc": "datatakeClass",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "datatakeclass1",
+    "label": "datatakeClass",
+    "desc": "datatakeClass",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "datatakefilenumb0",
+    "label": "datatakeFileNumber",
+    "desc": "on board datatake file number (is object of wraparound during the mission)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "date_of_dumping0",
+    "label": "date_of_Dumping",
+    "desc": "date_of_Dumping",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "date_of_imaging0",
+    "label": "date_of_Imaging",
+    "desc": "date_of_Imaging",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "datum",
+    "desc": "datum",
+    "hierarchy": [
+      "projectionInfo"
+    ],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "id": "dayofyear0",
+    "label": "dayOfYear",
+    "desc": "day Of Year",
+    "hierarchy": [],
+    "definedBy": [
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "Occultation-Relative-TEC",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change",
+      "Vertical-Electron-Density-Distribution",
+      "Vertical-Electron-Density-Profiles"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "demidentifier0",
+    "label": "demIdentifier",
+    "desc": "DEM identifier",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "dempostingclass0",
+    "label": "demPostingClass",
+    "desc": "posting class of DEM product. Based on posting in north direction",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "description0",
+    "label": "description",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.INF",
+      "AIRRS.RGI",
+      "SWACI.GROUNDBASED.REG.GB.L2",
+      "SWACI.GROUNDBASED.SCINT.L1",
+      "SWACI.GROUNDBASED.TEC.EU.L2",
+      "SWACI.GROUNDBASED.TEC.GB.L2",
+      "Vertical-Electron-Density-Distribution"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "dmsOrder",
+    "desc": "order parameters of the DMS system",
+    "hierarchy": [
+      "dmsParameters"
+    ],
+    "definedBy": [
+      "SRL.X-SAR.SSC"
+    ]
+  },
+  {
+    "label": "dmsParameters",
+    "desc": "SRL X-SAR MGD parameters of the DMS system",
+    "hierarchy": [],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC"
+    ]
+  },
+  {
+    "label": "doi",
+    "hierarchy": [],
+    "definedBy": [
+      "FBI.MSC.L0"
+    ]
+  },
+  {
+    "label": "dopplerCentroid",
+    "desc": "dopplerCentroid",
+    "hierarchy": [
+      "sensorParameters",
+      "dopplerCentroidValuesSecondary",
+      "timeTaggedDopplerCentroidValue"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "dopplerCentroidValuesPrimary",
+    "desc": "dopplerCentroidValuesPrimary",
+    "hierarchy": [
+      "sensorParameters"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "dopplerCentroidValuesSecondary",
+    "desc": "dopplerCentroidValuesSecondary",
+    "hierarchy": [
+      "sensorParameters"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "downlinkInfoFileParameters",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "downlinkParameters",
+    "hierarchy": [],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "downlinkQualityParameters",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "dumping_orbit_no0",
+    "label": "dumping_Orbit_No",
+    "desc": "dumping_Orbit_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "earlyAzimuth",
+    "desc": "earlyAzimuth",
+    "hierarchy": [
+      "geographicalParameters"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "id": "eastboundingcoor2",
+    "label": "eastBoundingCoordinate",
+    "desc": "eastmost longitude",
+    "hierarchy": [
+      "spatialCoverage",
+      "boundingBox"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "eastboundingcoor0",
+    "label": "eastBoundingCoordinate",
+    "desc": "eastmost longitude",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "eastboundingcoor1",
+    "label": "eastBoundingCoordinate",
+    "desc": "eastmost longitude",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "easting0",
+    "label": "easting",
+    "desc": "easting",
+    "hierarchy": [
+      "imageParameters",
+      "pixelSpacing"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "effectivebaselin0",
+    "label": "effectiveBaseline",
+    "desc": "effective baseline",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "elevationbeamcon0",
+    "label": "elevationBeamConfiguration",
+    "desc": "elevation beam configuration",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "elevationBeamInfo",
+    "desc": "elevationBeamInfo",
+    "hierarchy": [
+      "processingParameters",
+      "imageParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.L0",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "ellipsoid",
+    "desc": "ellipsoid",
+    "hierarchy": [
+      "projectionInfo"
+    ],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "id": "endoflastacquisi0",
+    "label": "endOfLastAcquisition",
+    "desc": "endtime of last acquisition",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "eowebproductid0",
+    "label": "eowebProductId",
+    "desc": "the id of a product in EOWEB as shown in the user interface and as interchanged with the core system",
+    "hierarchy": [],
+    "definedBy": [
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "EowebProduct"
+    ],
+    "type": "Identifier"
+  },
+  {
+    "id": "eowebproducttype0",
+    "label": "eowebProductType",
+    "desc": "the type of a product in EOWEB as shown in the user interface",
+    "hierarchy": [],
+    "definedBy": [
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "EowebProduct"
+    ],
+    "type": "Identifier"
+  },
+  {
+    "label": "esaParameters",
+    "desc": "specific parameters for connectivity with ESA systems",
+    "hierarchy": [],
+    "definedBy": [
+      "Vertical-Column-Density"
+    ]
+  },
+  {
+    "label": "euromapURL",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P6.LISS-IV.P-MONO"
+    ]
+  },
+  {
+    "label": "featureExtractionProcess",
+    "desc": "Feature Extraction Process",
+    "hierarchy": [],
+    "definedBy": [
+      "FBI.MSC.L0"
+    ]
+  },
+  {
+    "label": "flightParameters",
+    "desc": "flight parameters for AIRRS.INF",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.INF",
+      "AIRRS.RGI"
+    ]
+  },
+  {
+    "id": "format0",
+    "label": "format",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "SWACI.GROUNDBASED.REG.GB.L2",
+      "SWACI.GROUNDBASED.SCINT.L1",
+      "SWACI.GROUNDBASED.TEC.EU.L2",
+      "SWACI.GROUNDBASED.TEC.GB.L2",
+      "SWACI.SLAB-THICKNESS.L2",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "formatversion0",
+    "label": "formatVersion",
+    "desc": "version of ppf file",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "frame_ll_lat0",
+    "label": "frame_LL_lat",
+    "desc": "frame_LL_lat",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "frame_ll_lon0",
+    "label": "frame_LL_lon",
+    "desc": "frame_LL_lon",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "frame_lr_lat0",
+    "label": "frame_LR_lat",
+    "desc": "frame_LR_lat P5",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "frame_lr_lon0",
+    "label": "frame_LR_lon",
+    "desc": "frame_LR_lon",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "frame_ul_lat0",
+    "label": "frame_UL_lat",
+    "desc": "Frame_UL_lat",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "frame_ul_lon0",
+    "label": "frame_UL_lon",
+    "desc": "Frame_UL_lon",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "frame_ur_lat0",
+    "label": "frame_UR_lat",
+    "desc": "frame_UR_lat",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "frame_ur_lon0",
+    "label": "frame_UR_lon",
+    "desc": "frame_UR_lon",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "frameCoordinates",
+    "desc": "frameCoordinates",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "id": "gain_ccd1_band0",
+    "label": "gain_CCD1_band2",
+    "desc": "gain_CCD1_band2",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "gain_ccd1_band1",
+    "label": "gain_CCD1_band3",
+    "desc": "gain_CCD1_band3",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "gain_ccd1_band2",
+    "label": "gain_CCD1_band4",
+    "desc": "gain_CCD1_band4",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "gain_ccd2_band0",
+    "label": "gain_CCD2_band2",
+    "desc": "gain_CCD2_band2",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "gain_ccd2_band1",
+    "label": "gain_CCD2_band3",
+    "desc": "gain_CCD2_band3",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "gain_ccd2_band2",
+    "label": "gain_CCD2_band4",
+    "desc": "gain_CCD2_band4",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "gelbstoffmax0",
+    "label": "gelbstoffMax",
+    "desc": "maximal value for gelbstoff",
+    "hierarchy": [
+      "statistics"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.RWC_PCI",
+      "ENVISAT.MERIS.VA.L3.RWC_RTM"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "gelbstoffmin0",
+    "label": "gelbstoffMin",
+    "desc": "minimal value for gelbstoff",
+    "hierarchy": [
+      "statistics"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.RWC_PCI",
+      "ENVISAT.MERIS.VA.L3.RWC_RTM"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "generationsystem0",
+    "label": "generationSystem",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC",
+      "TerraSAR-X_SSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "generationsystem1",
+    "label": "generationSystemVersion",
+    "desc": "generationSystemVersion",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "generationtime0",
+    "label": "generationTime",
+    "desc": "generationTime",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "geographicalParameters",
+    "desc": "geographical parameters for SRL X-SAR MGD",
+    "hierarchy": [],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "geolocation",
+    "desc": "geolocation of SRTM1 X-SAR geocoded interferometric datasets",
+    "hierarchy": [
+      "geographicalParameters"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "label": "geometricAccuracy",
+    "desc": "geometricAccuracy",
+    "hierarchy": [
+      "qualityInfo"
+    ],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "label": "geoParameters",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC"
+    ]
+  },
+  {
+    "label": "georeferencingProcess",
+    "desc": "Georeferencing Process",
+    "hierarchy": [],
+    "definedBy": [
+      "FBI.MSC.L0"
+    ]
+  },
+  {
+    "id": "gop0",
+    "label": "GOP",
+    "desc": "Ground Operation",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "gridgranularity1",
+    "label": "gridGranularity",
+    "desc": "grid granularity",
+    "hierarchy": [
+      "sceneParameter",
+      "mapProjection"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "gridgranularity0",
+    "label": "gridGranularity",
+    "desc": "grid granularity",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "grnd_samp_dist_a0",
+    "label": "grnd_Samp_Dist_Across_Track",
+    "desc": "grnd_Samp_Dist_Across_Track",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "grnd_samp_dist_a3",
+    "label": "grnd_Samp_Dist_Along_Track",
+    "desc": "grnd_Samp_Dist_Along_Track",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "GROUND.DAY-INTERMEDIATE-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TEC-Intermediate"
+    ]
+  },
+  {
+    "label": "GROUND.DAY-TEC.ERR-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TEC-Error-Maps"
+    ]
+  },
+  {
+    "label": "GROUND.DAY-TEC.GLAT-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "Latitudinal-TEC-Gradients"
+    ]
+  },
+  {
+    "label": "GROUND.DAY-TEC.GLON-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "Longitudinal-TEC-Gradients"
+    ]
+  },
+  {
+    "label": "GROUND.DAY-TEC.ORIG-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TEC-Maps"
+    ]
+  },
+  {
+    "label": "GROUND.DAY-TEC.RATE-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TEC-Rate-Of-Change"
+    ]
+  },
+  {
+    "label": "groundSamplingDistance",
+    "desc": "groundSamplingDistance",
+    "hierarchy": [
+      "resolution"
+    ],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "id": "heighterrorrange1",
+    "label": "heightErrorRange",
+    "desc": "height error range",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "heightofambiguit0",
+    "label": "heightOfAmbiguity",
+    "desc": "height of ambiguity",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "heightParameters",
+    "desc": "Height Parameters",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract"
+    ]
+  },
+  {
+    "id": "heightrange1",
+    "label": "heightRange",
+    "desc": "height range",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "heightstandardde0",
+    "label": "heightStandardDeviation",
+    "desc": "height standard deviation",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "identifier0",
+    "label": "identifier",
+    "desc": "identifier",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS1C1D-BaseProduct",
+      "RapidEye.RESA.L1B",
+      "RapidEye.RESA.L2A",
+      "RapidEye.RESA.L3A"
+    ],
+    "type": "Identifier"
+  },
+  {
+    "id": "identifier1",
+    "label": "identifier",
+    "desc": "identifier",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "image_heading_an3",
+    "label": "image_Heading_Angle_for_L4",
+    "desc": "image_Heading_Angle_for_L4",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "imageParameters",
+    "desc": "imageParameters",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM"
+    ]
+  },
+  {
+    "label": "imageParametersAft",
+    "desc": "imageParameters P5 struct attr.",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "imageParametersFor",
+    "desc": "imageParameters P5 struct attr.",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "imageSize",
+    "desc": "image size",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract"
+    ]
+  },
+  {
+    "id": "imaging_orbit_no1",
+    "label": "imaging_Orbit_No",
+    "desc": "imaging_Orbit_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "imagingmode4",
+    "label": "imagingMode",
+    "desc": "imagingMode",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "imagingmode0",
+    "label": "imagingMode",
+    "desc": "imaging mode (high resolution spotlight, spotlight, stripmap, ScanSAR)",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "imagingmode5",
+    "label": "imagingMode",
+    "desc": "imagingMode",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "incidenceAngle",
+    "desc": "incidenceAngle",
+    "hierarchy": [
+      "sensorParameters"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "label": "incidenceAngleInfo",
+    "desc": "incidence angle info for TSX-1.SAR.L0/L1b",
+    "hierarchy": [
+      "processingParameters",
+      "imageParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.L0",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "incidenceanglesc0",
+    "label": "incidenceAngleSceneCenter",
+    "desc": "incidence angle at scene center",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "inconsistencypri0",
+    "label": "inconsistencyPrioMethod",
+    "desc": "applied priority method for combining inconsistent pixel during mosaicking (pool: q_hdd_check_prio)",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "inputDataFiles",
+    "desc": "list of input data files",
+    "hierarchy": [
+      "productParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "inputPRFList",
+    "desc": "inputPRFList",
+    "hierarchy": [
+      "processingParameters",
+      "imageParameters"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "insertiontime0",
+    "label": "insertionTime",
+    "desc": "date and time of the insertion of a product item into the PL",
+    "hierarchy": [],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "iop0",
+    "label": "IOP",
+    "desc": "Instrument Operation",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "isglobal0",
+    "label": "isGlobal",
+    "desc": "If true, the spatial coverage is the whole sphere, if false, only a part of the sphere is covered.",
+    "hierarchy": [
+      "spatialCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Boolean"
+  },
+  {
+    "id": "itprevisionlates0",
+    "label": "itpRevisionLatest",
+    "desc": "itp revision latest",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "itprevisionoldes0",
+    "label": "itpRevisionOldest",
+    "desc": "itp revision oldest",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "lateAzimuth",
+    "desc": "lateAzimuth",
+    "hierarchy": [
+      "geographicalParameters"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "id": "latitude15",
+    "label": "latitude",
+    "desc": "geographical latitude",
+    "hierarchy": [
+      "sceneParameter",
+      "lowerRightCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "latitude14",
+    "label": "latitude",
+    "desc": "geographical latitude",
+    "hierarchy": [
+      "sceneParameter",
+      "lowerLeftCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "latitude17",
+    "label": "latitude",
+    "desc": "geographical latitude",
+    "hierarchy": [
+      "sceneParameter",
+      "sceneCenter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "latitude13",
+    "label": "latitude",
+    "desc": "geographical latitude",
+    "hierarchy": [
+      "sceneParameter",
+      "lowerCenterCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "latitude18",
+    "label": "latitude",
+    "desc": "geographical latitude",
+    "hierarchy": [
+      "sceneParameter",
+      "upperCenterCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "latitude20",
+    "label": "latitude",
+    "desc": "geographical latitude",
+    "hierarchy": [
+      "sceneParameter",
+      "upperRightCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "latitude19",
+    "label": "latitude",
+    "desc": "geographical latitude",
+    "hierarchy": [
+      "sceneParameter",
+      "upperLeftCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "line_losses0",
+    "label": "line_Losses",
+    "desc": "line_Losses",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "liss3_path_no0",
+    "label": "lISS3_Path_No",
+    "desc": "lISS3_Path_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "liss3_row_no0",
+    "label": "lISS3_Row_No",
+    "desc": "lISS3_Row_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "longitude13",
+    "label": "longitude",
+    "desc": "geographical longitude",
+    "hierarchy": [
+      "sceneParameter",
+      "lowerCenterCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "longitude19",
+    "label": "longitude",
+    "desc": "geographical longitude",
+    "hierarchy": [
+      "sceneParameter",
+      "upperLeftCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "longitude18",
+    "label": "longitude",
+    "desc": "geographical longitude",
+    "hierarchy": [
+      "sceneParameter",
+      "upperCenterCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "longitude20",
+    "label": "longitude",
+    "desc": "geographical longitude",
+    "hierarchy": [
+      "sceneParameter",
+      "upperRightCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "longitude15",
+    "label": "longitude",
+    "desc": "geographical longitude",
+    "hierarchy": [
+      "sceneParameter",
+      "lowerRightCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "longitude14",
+    "label": "longitude",
+    "desc": "geographical longitude",
+    "hierarchy": [
+      "sceneParameter",
+      "lowerLeftCoordinate"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "longitude17",
+    "label": "longitude",
+    "desc": "geographical longitude",
+    "hierarchy": [
+      "sceneParameter",
+      "sceneCenter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "lookdirection0",
+    "label": "lookDirection",
+    "desc": "sensor look direction",
+    "hierarchy": [
+      "acquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "looks",
+    "desc": "GIFDS looks",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "label": "lowerCenterCoordinate",
+    "desc": "map projection parameter",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "lowerLeftCoordinate",
+    "desc": "lower left coordinate (L3_ATT_SCENE_L_L_LAT_KEY, L3_ATT_SCENE_L_L_LON_KEY)",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "lowerRight",
+    "desc": "lower right frame corner point",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation",
+      "frameCoordinates"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "label": "lowerRightCoordinate",
+    "desc": "lower right coordinate (L3_ATT_SCENE_L_R_LAT_KEY, L3_ATT_SCENE_L_R_LON_KEY)",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "id": "manual_cloud_sco0",
+    "label": "manual_Cloud_Score_LL",
+    "desc": "manual_Cloud_Score_LL",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "manual_cloud_sco3",
+    "label": "manual_Cloud_Score_LR",
+    "desc": "manual_Cloud_Score_LR",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "manual_cloud_sco6",
+    "label": "manual_Cloud_Score_UL",
+    "desc": "manual_Cloud_Score_UL",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "manual_cloud_sco9",
+    "label": "manual_Cloud_Score_UR",
+    "desc": "manual_Cloud_Score_UR",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "mapProjection",
+    "desc": "map projection parameter",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "mapProjectionCenter",
+    "desc": "mapProjectionCenter",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "NOAA.AVHRR.SST"
+    ]
+  },
+  {
+    "id": "mastersatellite0",
+    "label": "masterSatellite",
+    "desc": "master satellite name",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "masterstarttimeu0",
+    "label": "masterStartTimeUTC",
+    "desc": "masterStartTimeUTC",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "masterstoptimeut0",
+    "label": "masterStopTimeUTC",
+    "desc": "masterStopTimeUTC",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "max",
+    "desc": "maximum value measurement point",
+    "hierarchy": [
+      "histograms"
+    ],
+    "definedBy": [
+      "Vertical-Column-Density-Composite"
+    ]
+  },
+  {
+    "id": "maximalheighterr0",
+    "label": "maximalHeightError",
+    "desc": "maximal height error",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "maximalterrainhe1",
+    "label": "maximalTerrainHeight",
+    "desc": "maximal terrain height",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "maxnumbercoverag0",
+    "label": "maxNumberCoverages",
+    "desc": "maximum number of acquisitions available to generate height value",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "mcpprepversionla0",
+    "label": "mcpPrepVersionLatest",
+    "desc": "mcp preperation latest version",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "mcpprepversionol0",
+    "label": "mcpPrepVersionOldest",
+    "desc": "mcp preperation version oldest",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "meandifferencebe0",
+    "label": "meanDifferenceBetweenDTs",
+    "desc": "meanDifferenceBetweenDTs",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "meandifferenceto0",
+    "label": "meanDifferenceToICESat",
+    "desc": "meanDifferenceToICESat",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "meandifferenceto1",
+    "label": "meanDifferenceToSRTM",
+    "desc": "meanDifferenceToSRTM",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "media_id0",
+    "label": "media_ID",
+    "desc": "media_ID",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "metadata",
+    "desc": "General information about the metadata file itself and copyright notice",
+    "hierarchy": [],
+    "definedBy": [
+      "DESIS-Abstract-Product",
+      "DESIS.HSI.L1A"
+    ]
+  },
+  {
+    "label": "metCenterTime",
+    "desc": "metCenterTime",
+    "hierarchy": [
+      "realAcquisitionTimes"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "metStartTime",
+    "desc": "metStartTime",
+    "hierarchy": [
+      "realAcquisitionTimes"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "metStopTime",
+    "desc": "metStopTime",
+    "hierarchy": [
+      "realAcquisitionTimes"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "id": "mid0",
+    "label": "mid",
+    "desc": "average altitude",
+    "hierarchy": [
+      "altitudeCoverage"
+    ],
+    "definedBy": [
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ProductItem"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "min",
+    "desc": "minimum value measurement point",
+    "hierarchy": [
+      "histograms"
+    ],
+    "definedBy": [
+      "Vertical-Column-Density-Composite"
+    ]
+  },
+  {
+    "id": "minimalheighterr0",
+    "label": "minimalHeightError",
+    "desc": "minimal height error",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "minimalterrainhe1",
+    "label": "minimalTerrainHeight",
+    "desc": "minimal terrain height",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "minnumbercoverag0",
+    "label": "minNumberCoverages",
+    "desc": "minimum number of acquisitions available to generate height value",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "mission1",
+    "label": "mission",
+    "desc": "mission name",
+    "hierarchy": [
+      "acquisitionParameters"
+    ],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "mission0",
+    "label": "mission",
+    "desc": "mission name",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.INF",
+      "AIRRS.RGI",
+      "Base.TSX-1.SAR.L1B",
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "FBI.MSC.L0",
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct",
+      "LANDSAT8.L0Ra.Scene",
+      "LANDSAT8.L1",
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "MODIS.L0",
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST",
+      "Occultation-Relative-TEC",
+      "RapidEye.RESA.L1B",
+      "RapidEye.RESA.L2A",
+      "RapidEye.RESA.L3A",
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "SWACI.GROUNDBASED.REG.GB.L2",
+      "SWACI.GROUNDBASED.SCINT.L1",
+      "SWACI.GROUNDBASED.TEC.EU.L2",
+      "SWACI.GROUNDBASED.TEC.GB.L2",
+      "SWACI.SLAB-THICKNESS.L2",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract",
+      "TDM.SAR.COSSC",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change",
+      "TerraSAR-X_SSC",
+      "Vertical-Column-Density",
+      "Vertical-Column-Density-Composite",
+      "Vertical-Electron-Density-Distribution",
+      "Vertical-Electron-Density-Profiles"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "missionObjectives",
+    "desc": "list of objectives",
+    "hierarchy": [
+      "flightParameters"
+    ],
+    "definedBy": [
+      "AIRRS.RGI"
+    ]
+  },
+  {
+    "label": "missionParameters",
+    "desc": "missionParameters",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P6.LISS-IV.P-MONO"
+    ]
+  },
+  {
+    "label": "missionParametersAft",
+    "desc": "missionParameters P5 struct. attr.",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "missionParametersFor",
+    "desc": "missionParameters P5 struct. attr.",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "id": "mono_band_no0",
+    "label": "mono_Band_No",
+    "desc": "Mono_Band_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "mosqualitystatus0",
+    "label": "mosQualityStatus",
+    "desc": "MOS quality status",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "mosremark0",
+    "label": "mosRemark",
+    "desc": "MOS remark",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "mx_reference_ban0",
+    "label": "mX_Reference_Band_No",
+    "desc": "mX_Reference_Band_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "nominalMetStart",
+    "desc": "nominalMetStart",
+    "hierarchy": [
+      "acquisitionParameters",
+      "acquisitionTimes"
+    ],
+    "definedBy": [
+      "SRTM-GTC",
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "nominalMetStop",
+    "desc": "nominalMetStop",
+    "hierarchy": [
+      "acquisitionParameters",
+      "acquisitionTimes"
+    ],
+    "definedBy": [
+      "SRTM-GTC",
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "id": "northboundingcoo0",
+    "label": "northBoundingCoordinate",
+    "desc": "northmost latitude",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "northboundingcoo2",
+    "label": "northBoundingCoordinate",
+    "desc": "northmost latitude",
+    "hierarchy": [
+      "spatialCoverage",
+      "boundingBox"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "northboundingcoo1",
+    "label": "northBoundingCoordinate",
+    "desc": "northmost latitude",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "northEast",
+    "desc": "north east corner point",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation",
+      "cornerCoordinates"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "id": "northing0",
+    "label": "northing",
+    "desc": "northing",
+    "hierarchy": [
+      "imageParameters",
+      "pixelSpacing"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "northWest",
+    "desc": "north west corner point",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation",
+      "cornerCoordinates"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "id": "numberacquisitio0",
+    "label": "numberAcquisitions",
+    "desc": "number of used acquisitions to generate this tile",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "numberoflatitude0",
+    "label": "numberOfLatitudePoints",
+    "desc": "number of latitude points",
+    "hierarchy": [
+      "imageParameters",
+      "imageSize"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "numberoflongitud0",
+    "label": "numberOfLongitudePoints",
+    "desc": "number of longitude points",
+    "hierarchy": [
+      "imageParameters",
+      "imageSize"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "numberorbitsincy0",
+    "label": "numberOrbitsInCycle",
+    "desc": "numberOrbitsInCycle",
+    "hierarchy": [
+      "orbitInfo",
+      "orbitParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "numbervalidation0",
+    "label": "numberValidationPointsIcesat",
+    "desc": "numberValidationPointsIcesat (pool: q_diff_icesat_pts)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "odd_even_flag0",
+    "label": "odd_Even_Flag",
+    "desc": "Odd_Even_Flag",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "operationstype0",
+    "label": "operationsType",
+    "desc": "operationsType",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B",
+      "TDM.SAR.COSSC",
+      "TerraSAR-X_SSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "operator_comment1",
+    "label": "operator_Comment",
+    "desc": "Operator_Comment",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "orbitcycle0",
+    "label": "orbitCycle",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "orbitcycle1",
+    "label": "orbitCycle",
+    "desc": "orbitCycle",
+    "hierarchy": [
+      "orbitInfo",
+      "orbitParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "orbitdirection1",
+    "label": "orbitDirection",
+    "desc": "",
+    "hierarchy": [
+      "acquisitionParameters"
+    ],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "orbitdirection0",
+    "label": "orbitDirection",
+    "desc": "ascending or descending",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B",
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "orbitdirection4",
+    "label": "orbitDirection",
+    "desc": "ascending or descending",
+    "hierarchy": [
+      "orbitInfo"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "orbitInfo",
+    "desc": "orbit info",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC",
+      "TDM.SAR.L0",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "orbitParameters",
+    "desc": "orbit parameters",
+    "hierarchy": [
+      "processingParameters",
+      "orbitInfo"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC",
+      "TDM.SAR.L0",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "orbitphase0",
+    "label": "orbitPhase",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "orderingProcess",
+    "desc": "Ordering Process",
+    "hierarchy": [],
+    "definedBy": [
+      "FBI.MSC.L0"
+    ]
+  },
+  {
+    "id": "os_type0",
+    "label": "oS_type",
+    "desc": "oS_type",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "pass_or_segment_0",
+    "label": "pass_or_Segment_No",
+    "desc": "pass_or_Segment_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "pass_type0",
+    "label": "pass_Type",
+    "desc": "Pass_Type",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "path_no0",
+    "label": "path_No",
+    "desc": "Path_No",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "perc90difference0",
+    "label": "perc90DifferenceToICESat",
+    "desc": "90 percentage difference to ICESat (pool: q_diff_icesat_error_90)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "perc90difference1",
+    "label": "perc90DifferenceToSRTM",
+    "desc": "90 percentage difference to SRTM Land (pool: q_diff_refdem_error_90)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "perc90heighterro0",
+    "label": "perc90HeightErrorFlat",
+    "desc": "90 percent height error for slope<20% (valid pixel without water) (pool: q_height_error_flat_90)",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "perc90heighterro1",
+    "label": "perc90HeightErrorSteep",
+    "desc": "90 percent height error for slope>20% (valid pixel without water) (pool: q_height_error_steep_90)",
+    "hierarchy": [
+      "heightParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageofdemv0",
+    "label": "percentageOfDEMValids",
+    "desc": "percentage of DEM valids",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageoffore0",
+    "label": "percentageOfForest",
+    "desc": "percentage of forest estimated from GlobeCover (pool: q_forest_percent)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageofheig0",
+    "label": "percentageOfHeightDiscrepancies",
+    "desc": "percentage of height discrepancies",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageoflayo0",
+    "label": "percentageOfLayoverShadow",
+    "desc": "percentage of layover shadow",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageofpote0",
+    "label": "percentageOfPotentialLand",
+    "desc": "percentageOfPotentialLand",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageofpote1",
+    "label": "percentageOfPotentialWater",
+    "desc": "percentage of potential water",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageofvoid0",
+    "label": "percentageOfVoidsOverLand2WAMs",
+    "desc": "percentage of voids (wrt to all TDM pixels), where two out of MERIS, SRTM and TDM indicate land (pool: tbd.)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percentageofvoid1",
+    "label": "percentageOfVoidsOverLand3WAMs",
+    "desc": "percentage of voids (wrt to all TDM pixels), where MERIS, SRTM and TDM indicate land (pool: q_vol_outside_all_wam_percent)",
+    "hierarchy": [
+      "processingParameters",
+      "coverageCompleteness"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percrelheighterr0",
+    "label": "percRelHeightErrorCombPdf",
+    "desc": "percentage of relative height error below requirement for combined terrain (flat and steep) based on the point-to-point probability density function (pool: q_rel_height_error_comb_pdf)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percrelheighterr1",
+    "label": "percRelHeightErrorFlatPdf",
+    "desc": "percentage of relative height error below 2m in flat terrain (slope<=20%) based on the point-to-point probability density function (pool: q_rel_height_error_flat_pdf)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "percrelheighterr2",
+    "label": "percRelHeightErrorSteepPdf",
+    "desc": "percentage of relative height error below 4m in steep terrain (slope>20%) based on the point-to-point probability density function (pool: q_rel_height_error_steep_pdf)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "phaseOffsetLookupTable",
+    "desc": "phaseOffsetLookupTable",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "pixelSpacing",
+    "desc": "pixel spacing",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract"
+    ]
+  },
+  {
+    "id": "polarisationchan0",
+    "label": "polarisationChannels",
+    "desc": "polarisation channel transmit/receive configuration: horizontal, vertical",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "polarisationchan2",
+    "label": "polarisationChannels",
+    "desc": "polarisationChannels",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "polarisationchan3",
+    "label": "polarisationChannels",
+    "desc": "polarisationChannels",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "polarisationmode3",
+    "label": "polarisationMode",
+    "desc": "polarisation mode: single, dual, twin, quad",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "polarisationmode0",
+    "label": "polarisationMode",
+    "desc": "polarisation mode: single, dual, twin quad",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "polarisationmode4",
+    "label": "polarisationMode",
+    "desc": "polarisation mode: single, dual, twin, quad",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "ppf_creation_tim0",
+    "label": "pPF_Creation_Time",
+    "desc": "PPF_Creation_Time",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "preciseTimeGPS",
+    "desc": "precise time GPS",
+    "hierarchy": [
+      "sceneStartTime"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "preciseTimeUTC",
+    "desc": "precise time UTC",
+    "hierarchy": [
+      "sceneStartTime"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "primParameters",
+    "desc": "primParameters",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P6.LISS-IV.P-MONO"
+    ]
+  },
+  {
+    "id": "processingarchiv0",
+    "label": "processingArchivingVersion",
+    "desc": "processing archiving version (w42-to-pl delivery) (pool: r_arch_version)",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "processingcalibr0",
+    "label": "processingCalibrationVersionLatest",
+    "desc": "processing calibration version latest",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "processingcalibr1",
+    "label": "processingCalibrationVersionOldest",
+    "desc": "processing calibration version oldest",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "processingdate0",
+    "label": "processingDate",
+    "desc": "",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract",
+      "Vertical-Column-Density",
+      "Vertical-Column-Density-Composite"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "processingdate1",
+    "label": "processingDate",
+    "desc": "",
+    "hierarchy": [
+      "processorParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "processingfacili0",
+    "label": "processingFacility",
+    "desc": "",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract",
+      "Vertical-Column-Density",
+      "Vertical-Column-Density-Composite"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "processingmosaic0",
+    "label": "processingMosaickingRevision",
+    "desc": "mos revision, comprising processingArchivingVersion and processingMosaickingVersion (pool: r_mos_revision)",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "processingmosaic1",
+    "label": "processingMosaickingVersionLatest",
+    "desc": "processing mosaicking version",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "processingmosaic2",
+    "label": "processingMosaickingVersionOldest",
+    "desc": "processing mosaicking version (pool: r_mos_version_oldest)",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "processingParameters",
+    "desc": "processingParameters for TDM.DEM.IDEM",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "Vertical-Column-Density"
+    ]
+  },
+  {
+    "id": "processingversio0",
+    "label": "processingVersion",
+    "desc": "",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "Vertical-Column-Density",
+      "Vertical-Column-Density-Composite"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "processorbuild0",
+    "label": "processorBuild",
+    "desc": "processor build (L3_ATT_PROC_BUILD_KEY)",
+    "hierarchy": [
+      "processorParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "processorParameter",
+    "desc": "processor parameter",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "processorVariables",
+    "desc": "processorVariables",
+    "hierarchy": [],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "label": "productClassificationParameters",
+    "desc": "Product Classification Parameters",
+    "hierarchy": [],
+    "definedBy": [
+      "FBI.MSC.L0"
+    ]
+  },
+  {
+    "id": "productid0",
+    "label": "productID",
+    "desc": "product identifier",
+    "hierarchy": [],
+    "definedBy": [
+      "LANDSAT8.L0Ra.Scene",
+      "LANDSAT8.L1",
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "Occultation-Relative-TEC",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change",
+      "Vertical-Electron-Density-Distribution",
+      "Vertical-Electron-Density-Profiles"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "productionProcess",
+    "desc": "Production Process",
+    "hierarchy": [],
+    "definedBy": [
+      "FBI.MSC.L0"
+    ]
+  },
+  {
+    "label": "productParameter",
+    "desc": "product parameter",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "productParameters",
+    "desc": "GOME product parameters",
+    "hierarchy": [],
+    "definedBy": [
+      "Vertical-Column-Density"
+    ]
+  },
+  {
+    "label": "projectionInfo",
+    "desc": "projectionInfo",
+    "hierarchy": [],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "id": "ql_data_ll_c1",
+    "label": "qL_Data_LL_c",
+    "desc": "QL_Data_LL_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_data_ll_r1",
+    "label": "qL_Data_LL_r",
+    "desc": "qL_Data_LL_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_data_lr_c1",
+    "label": "qL_Data_LR_c",
+    "desc": "qL_Data_LR_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_data_lr_r1",
+    "label": "qL_Data_LR_r",
+    "desc": "qL_Data_LR_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_data_ul_c1",
+    "label": "qL_Data_UL_c",
+    "desc": "qL_Data_UL_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_data_ul_r1",
+    "label": "qL_Data_UL_r",
+    "desc": "qL_Data_UL_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_data_ur_c1",
+    "label": "qL_Data_UR_c",
+    "desc": "qL_Data_UR_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_data_ur_r1",
+    "label": "qL_Data_UR_r",
+    "desc": "QL_Data_UR_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_file_name0",
+    "label": "qL_File_Name",
+    "desc": "qL_File_Name",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "ql_interleave0",
+    "label": "qL_Interleave",
+    "desc": "qL_Interleave",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_ll_c1",
+    "label": "qL_Logo_LL_c",
+    "desc": "qL_Logo_LL_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_ll_r1",
+    "label": "qL_Logo_LL_r",
+    "desc": "qL_Logo_LL_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_lr_c1",
+    "label": "qL_Logo_LR_c",
+    "desc": "qL_Logo_LR_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_lr_r1",
+    "label": "qL_Logo_LR_r",
+    "desc": "qL_Logo_LR_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_ul_c1",
+    "label": "qL_Logo_UL_c",
+    "desc": "qL_Logo_UL_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_ul_r1",
+    "label": "qL_Logo_UL_r",
+    "desc": "qL_Logo_UL_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_ur_c1",
+    "label": "qL_Logo_UR_c",
+    "desc": "qL_Logo_UR_c",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_logo_ur_r1",
+    "label": "qL_Logo_UR_r",
+    "desc": "qL_Logo_UR_r",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_no_of_bands0",
+    "label": "qL_No_of_Bands",
+    "desc": "qL_No_of_Bands",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_no_of_columns0",
+    "label": "qL_No_of_Columns",
+    "desc": "qL_No_of_Columns",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_no_of_rows0",
+    "label": "qL_No_of_Rows",
+    "desc": "qL_No_of_Rows",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "ql_rawsize0",
+    "label": "qL_Rawsize",
+    "desc": "qL_Rawsize",
+    "hierarchy": [
+      "qlParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "qlParameters",
+    "desc": "qlParameters",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P6.LISS-IV.P-MONO"
+    ]
+  },
+  {
+    "label": "qlParametersAft",
+    "desc": "qlParameters P5 struct. attr.",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "qlParametersFor",
+    "desc": "qlParameters P5 struct. attr.",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "qualitiyIndicator",
+    "desc": "Contains information on the screening of the virtual channel and the dark current",
+    "hierarchy": [],
+    "definedBy": [
+      "DESIS-Abstract-Product",
+      "DESIS.HSI.L1A"
+    ]
+  },
+  {
+    "id": "quality0",
+    "label": "quality",
+    "desc": "product item quality indicator",
+    "hierarchy": [],
+    "definedBy": [
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ProductItem"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "quality_score0",
+    "label": "quality_Score",
+    "desc": "quality_Score",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "qualityInfo",
+    "desc": "qualityInfo",
+    "hierarchy": [],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "label": "qualityParameters",
+    "desc": "Quality Parameters",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ]
+  },
+  {
+    "label": "quantitisation",
+    "desc": "quantitisation",
+    "hierarchy": [
+      "resolution"
+    ],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "label": "RapidEye.RESA.L1B-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "RapidEye.RESA.L1B"
+    ]
+  },
+  {
+    "label": "RapidEye.RESA.L3A-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "RapidEye.RESA.L3A"
+    ]
+  },
+  {
+    "label": "rawDEMIdList",
+    "desc": "rawDEMIdList",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract"
+    ]
+  },
+  {
+    "label": "realAcquisitionTimes",
+    "desc": "real acquisition times of X-SAR raw data products",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "id": "receivingstation1",
+    "label": "receivingStation",
+    "desc": "",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "receivingstation0",
+    "label": "receivingStation",
+    "desc": "receiving station",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B",
+      "TerraSAR-X_SSC",
+      "Vertical-Electron-Density-Distribution"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "region1",
+    "label": "region",
+    "desc": "region",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "region0",
+    "label": "region",
+    "desc": "region name",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "reliability0",
+    "label": "reliability",
+    "desc": "product item reliability reflecting the level of maturity of the data (specific for EO Application Projects)",
+    "hierarchy": [],
+    "definedBy": [
+      "EOApp-Abstract",
+      "ProductItem"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "relorbit0",
+    "label": "relOrbit",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "relorbit1",
+    "label": "relOrbit",
+    "desc": "relOrbit",
+    "hierarchy": [
+      "orbitInfo",
+      "orbitParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "repeatPass",
+    "hierarchy": [
+      "flightParameters"
+    ],
+    "definedBy": [
+      "AIRRS.RGI"
+    ]
+  },
+  {
+    "label": "replayInfo",
+    "hierarchy": [
+      "downlinkParameters"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "replayListPriCh",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "replayListSecCh",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "replayStartTime",
+    "desc": "replay start time",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "resolution0",
+    "label": "resolution",
+    "desc": "best nominal spatial resolution of a pixel in meters in any direction under optimal conditions",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC",
+      "TerraSAR-X_SSC"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "resolution",
+    "desc": "resolution",
+    "hierarchy": [],
+    "definedBy": [
+      "LANDSAT8.L1"
+    ]
+  },
+  {
+    "id": "resolution2",
+    "label": "resolution",
+    "desc": "best nominal spatial resolution of a pixel in meters in any direction under optimal conditions",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "resolution3",
+    "label": "resolution",
+    "desc": "best nominal spatial resolution of a pixel in meters in any direction under optimal conditions",
+    "hierarchy": [
+      "sceneParameter",
+      "mapProjection"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "revision0",
+    "label": "revision",
+    "desc": "syntax: n{.n}*string where n is an integer greater or equal 0",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.INF",
+      "AIRRS.RGI",
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "FBI.MSC.L0",
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST",
+      "ProductItem",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "SWACI.GROUNDBASED.REG.GB.L2",
+      "SWACI.GROUNDBASED.SCINT.L1",
+      "SWACI.GROUNDBASED.TEC.EU.L2",
+      "SWACI.GROUNDBASED.TEC.GB.L2",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change",
+      "TerraSAR-X_SSC",
+      "Vertical-Column-Density",
+      "Vertical-Column-Density-Composite",
+      "Vertical-Electron-Density-Distribution",
+      "Vertical-Electron-Density-Profiles"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "revisionps0",
+    "label": "revisionPS",
+    "desc": "revisionPS",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract",
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "row_no1",
+    "label": "row_No",
+    "desc": "row_No",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "sat1",
+    "label": "sat1",
+    "desc": "satellite 1 name",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "sat1AcquisitionParameters",
+    "desc": "Sat 1 acquisition parameters",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ]
+  },
+  {
+    "id": "sat1elevationbea0",
+    "label": "sat1ElevationBeamConfiguration",
+    "desc": "sat1ElevationBeamConfiguration",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "sat1operationsty0",
+    "label": "sat1OperationsType",
+    "desc": "sat1OperationsType",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "sat1rangebandwid0",
+    "label": "sat1RangeBandwidthClass",
+    "desc": "sat1RangeBandwidthClass",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "sat2",
+    "label": "sat2",
+    "desc": "satellite 2 name",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "sat2AcquisitionParameters",
+    "desc": "Sat 2 acquisition parameters",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ]
+  },
+  {
+    "id": "sat2elevationbea0",
+    "label": "sat2ElevationBeamConfiguration",
+    "desc": "sat2ElevationBeamConfiguration",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "sat2operationsty0",
+    "label": "sat2OperationsType",
+    "desc": "sat2OperationsType",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "sat2rangebandwid0",
+    "label": "sat2RangeBandwidthClass",
+    "desc": "sat2RangeBandwidthClass",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "satellite_altitu0",
+    "label": "satellite_Altitude",
+    "desc": "satellite_Altitude",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "satellite_headin0",
+    "label": "satellite_Heading_Angle",
+    "desc": "satellite_Heading_Angle",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "satellitemode0",
+    "label": "satelliteMode",
+    "desc": "satelliteMode",
+    "hierarchy": [
+      "sat1AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "satellitemode1",
+    "label": "satelliteMode",
+    "desc": "satelliteMode",
+    "hierarchy": [
+      "sat2AcquisitionParameters"
+    ],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "scene_center_lat0",
+    "label": "scene_Center_lat",
+    "desc": "scene_Center_lat P5",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "scene_center_lon0",
+    "label": "scene_Center_lon",
+    "desc": "scene_Center_lon",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "scene_no_for_mx0",
+    "label": "scene_No_for_MX",
+    "desc": "scene_No_for_MX",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "sceneCenter",
+    "desc": "sceneCenter",
+    "hierarchy": [
+      "geographicalParameters"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "SRL.X-SAR.SSC",
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "id": "scenecolumnoffse0",
+    "label": "sceneColumnOffset",
+    "desc": "scene column offset (L3_ATT_SCENE_COL_OFF_KEY)",
+    "hierarchy": [
+      "sceneParameter",
+      "mapProjection"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "scenelineoffset0",
+    "label": "sceneLineOffset",
+    "desc": "scene line offset (L3_ATT_SCENE_LINE_OFF_KEY)",
+    "hierarchy": [
+      "sceneParameter",
+      "mapProjection"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "scenenumber0",
+    "label": "sceneNumber",
+    "desc": "sceneNumber",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "sceneParameter",
+    "desc": "scene parameter",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "sceneStartTime",
+    "hierarchy": [],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "sceneStopTime",
+    "hierarchy": [],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "sceneTopology",
+    "hierarchy": [
+      "flightParameters"
+    ],
+    "definedBy": [
+      "AIRRS.RGI"
+    ]
+  },
+  {
+    "label": "ScreeningResultCurr",
+    "desc": "Contains a list of current/voltage measurements",
+    "hierarchy": [
+      "qualitiyIndicator"
+    ],
+    "definedBy": [
+      "DESIS.HSI.L1A"
+    ]
+  },
+  {
+    "label": "ScreeningResultTemp",
+    "desc": "Contains list of temperature measurements",
+    "hierarchy": [
+      "qualitiyIndicator"
+    ],
+    "definedBy": [
+      "DESIS.HSI.L1A"
+    ]
+  },
+  {
+    "id": "sedimentmax0",
+    "label": "sedimentMax",
+    "desc": "maximal value for sediment",
+    "hierarchy": [
+      "statistics"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.RWC_PCI",
+      "ENVISAT.MERIS.VA.L3.RWC_RTM"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "sedimentmin0",
+    "label": "sedimentMin",
+    "desc": "minimal value for sediment",
+    "hierarchy": [
+      "statistics"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.RWC_PCI",
+      "ENVISAT.MERIS.VA.L3.RWC_RTM"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "segments",
+    "desc": "list of segments",
+    "hierarchy": [
+      "flightParameters"
+    ],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.RGI"
+    ]
+  },
+  {
+    "id": "sensor1",
+    "label": "sensor",
+    "desc": "sensor name",
+    "hierarchy": [
+      "acquisitionParameters"
+    ],
+    "definedBy": [
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "sensor0",
+    "label": "sensor",
+    "desc": "sensor name",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.INF",
+      "AIRRS.RGI",
+      "Base.TSX-1.SAR.L1B",
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "FBI.MSC.L0",
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct",
+      "LANDSAT8.L0Ra.Scene",
+      "LANDSAT8.L1",
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "MODIS.L0",
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST",
+      "Occultation-Relative-TEC",
+      "RapidEye.RESA.L1B",
+      "RapidEye.RESA.L2A",
+      "RapidEye.RESA.L3A",
+      "SRL.X-SAR.MGD",
+      "SRL.X-SAR.SSC",
+      "SRTM-DEM",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "SWACI.GROUNDBASED.REG.GB.L2",
+      "SWACI.GROUNDBASED.SCINT.L1",
+      "SWACI.GROUNDBASED.TEC.EU.L2",
+      "SWACI.GROUNDBASED.TEC.GB.L2",
+      "SWACI.SLAB-THICKNESS.L2",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract",
+      "TDM.SAR.COSSC",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change",
+      "TerraSAR-X_SSC",
+      "Vertical-Column-Density",
+      "Vertical-Column-Density-Composite",
+      "Vertical-Electron-Density-Distribution",
+      "Vertical-Electron-Density-Profiles"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "sensorParameters",
+    "desc": "sensor parameters of interferometric datasets",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.RGI",
+      "SRTM-GTC",
+      "SRTM-SSC",
+      "Vertical-Column-Density"
+    ]
+  },
+  {
+    "id": "site0",
+    "label": "site",
+    "desc": "site name",
+    "hierarchy": [
+      "creation"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "softwareInfo",
+    "desc": "softwareInfo",
+    "hierarchy": [],
+    "definedBy": [
+      "LANDSAT8.L0Ra.Scene"
+    ]
+  },
+  {
+    "label": "softwareVersion",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.RGI"
+    ]
+  },
+  {
+    "label": "softwareVersionParameters",
+    "desc": "softwareVersionParameters",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "SRTM-SSC",
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "id": "southboundingcoo0",
+    "label": "southBoundingCoordinate",
+    "desc": "southmost latitude",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "southboundingcoo2",
+    "label": "southBoundingCoordinate",
+    "desc": "southmost latitude",
+    "hierarchy": [
+      "spatialCoverage",
+      "boundingBox"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "southboundingcoo1",
+    "label": "southBoundingCoordinate",
+    "desc": "southmost latitude",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "southEast",
+    "desc": "south east corner point",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation",
+      "cornerCoordinates"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "label": "southWest",
+    "desc": "south west corner point",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation",
+      "cornerCoordinates"
+    ],
+    "definedBy": [
+      "SRTM-DEM",
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "label": "spatialCoverage",
+    "desc": "spatial coverage of the product item",
+    "hierarchy": [],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "label": "spatialCoverageAft",
+    "desc": "spatial coverage of single scene in stereo/widemono product",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "spatialCoverageFor",
+    "desc": "spatial coverage of single scene in stereo/widemono product",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "id": "spatiotempcovera0",
+    "label": "spatioTempCoverage",
+    "desc": "spatial and temporal coverage",
+    "hierarchy": [],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "GeoObject"
+  },
+  {
+    "id": "startoffirstacqu0",
+    "label": "startOfFirstAcquisition",
+    "desc": "starttime of first acquisition",
+    "hierarchy": [
+      "processingParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "starttime1",
+    "label": "startTime",
+    "desc": "start time of time coverage",
+    "hierarchy": [
+      "temporalCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "starttime0",
+    "label": "startTime",
+    "desc": "start time of time coverage",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "MODIS.L0",
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST",
+      "Vertical-Column-Density-Composite"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "statistics",
+    "desc": "statistic values for RWC product",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.RWC_PCI"
+    ]
+  },
+  {
+    "id": "stddifferencebet0",
+    "label": "stdDifferenceBetweenDTs",
+    "desc": "stdDifferenceBetweenDTs (pool: q_diff_betweenDTs_std)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "stddifferencetoi0",
+    "label": "stdDifferenceToICESat",
+    "desc": "stdDifferenceToICESat Validation Points (pool: q_diff_icesat_std)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "stddifferencetos0",
+    "label": "stdDifferenceToSRTM",
+    "desc": "stdDifferenceToSRTM (pool: q_diff_refdem_std)",
+    "hierarchy": [
+      "qualityParameters"
+    ],
+    "definedBy": [
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "stoptime0",
+    "label": "stopTime",
+    "desc": "stop time of time coverage",
+    "hierarchy": [],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE",
+      "MODIS.L0",
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "stoptime1",
+    "label": "stopTime",
+    "desc": "stop time of time coverage",
+    "hierarchy": [
+      "temporalCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "string",
+    "desc": "sequence of edges to approximately describe linear regions, e.g. rivers",
+    "hierarchy": [
+      "spatialCoverage"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "id": "strip_no0",
+    "label": "strip_No",
+    "desc": "Strip_No",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Integer"
+  },
+  {
+    "label": "subSatellitePointEnd",
+    "desc": "end point",
+    "hierarchy": [
+      "productParameters"
+    ],
+    "definedBy": [
+      "Vertical-Column-Density"
+    ]
+  },
+  {
+    "label": "subSatellitePointStart",
+    "desc": "starting point",
+    "hierarchy": [
+      "productParameters"
+    ],
+    "definedBy": [
+      "Vertical-Column-Density"
+    ]
+  },
+  {
+    "id": "subscene_id0",
+    "label": "subscene_ID",
+    "desc": "id of subscene",
+    "hierarchy": [
+      "missionParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Text"
+  },
+  {
+    "id": "sun_azimuth0",
+    "label": "sun_Azimuth",
+    "desc": "Sun_Azimuth",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "sun_elevation0",
+    "label": "sun_Elevation",
+    "desc": "sun_Elevation",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P5.PAN-MONO.ABSTRACT",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "SWACI.SLAB-THICKNESS.L2",
+    "hierarchy": [],
+    "definedBy": [
+      "SWACI.SLAB-THICKNESS.L2"
+    ]
+  },
+  {
+    "id": "swp_creationtime0",
+    "label": "swp_creationtime",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "swp_time0",
+    "label": "swp_time",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Latitudinal-TEC-Gradients",
+      "Longitudinal-TEC-Gradients",
+      "TEC-Error-Maps",
+      "TEC-Intermediate",
+      "TEC-Maps",
+      "TEC-Rate-Of-Change"
+    ],
+    "type": "Date"
+  },
+  {
+    "label": "tandem-x-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1-Like.SAR.L1b-Stripmap"
+    ]
+  },
+  {
+    "id": "taptakeid0",
+    "label": "TAPTakeId",
+    "desc": "TAPTakeId",
+    "hierarchy": [],
+    "definedBy": [
+      "TDM.SAR.COSSC"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "temporalCoverage",
+    "desc": "temporal coverage of the product item",
+    "hierarchy": [],
+    "definedBy": [
+      "ProductItem"
+    ]
+  },
+  {
+    "label": "temporalCoverageAft",
+    "desc": "temp. coverage of pan after",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "label": "temporalCoverageFor",
+    "desc": "temp. coverage of pan forward",
+    "hierarchy": [],
+    "definedBy": [
+      "IRS-P5.PAN-STEREO-WIDE.ABSTRACT"
+    ]
+  },
+  {
+    "id": "tiepointcolumnco0",
+    "label": "tiePointColumnCount",
+    "desc": "number of tie point columns (L3_ATT_TIE_PT_COL_KEY)",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "tiepointlinecoun0",
+    "label": "tiePointLineCount",
+    "desc": "number of tie point lines (L3_ATT_TIE_PT_LINE_KEY)",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "tileCoordinates",
+    "desc": "tileCoordinates",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation"
+    ],
+    "definedBy": [
+      "SRTM-DEM"
+    ]
+  },
+  {
+    "id": "tilt_angle0",
+    "label": "tilt_Angle",
+    "desc": "tilt_Angle",
+    "hierarchy": [
+      "imageParameters"
+    ],
+    "definedBy": [
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "time0",
+    "label": "time",
+    "desc": "",
+    "hierarchy": [
+      "creation"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "timeinterval0",
+    "label": "timeInterval",
+    "desc": "interval of time period",
+    "hierarchy": [],
+    "definedBy": [
+      "NOAA.AVHRR.LST_D",
+      "NOAA.AVHRR.LST_N",
+      "NOAA.AVHRR.NDVI",
+      "NOAA.AVHRR.SST",
+      "SWACI.SLAB-THICKNESS.L2"
+    ],
+    "type": "Text"
+  },
+  {
+    "label": "timeTag",
+    "desc": "timeTag",
+    "hierarchy": [
+      "sensorParameters",
+      "dopplerCentroidValuesSecondary",
+      "timeTaggedDopplerCentroidValue"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "label": "timeTaggedSpatialCoveragePolygon",
+    "desc": "timeTaggedSpatialCoveragePolygon",
+    "hierarchy": [
+      "geographicalParameters"
+    ],
+    "definedBy": [
+      "SRTM-SSC"
+    ]
+  },
+  {
+    "id": "top0",
+    "label": "top",
+    "desc": "maximum altitude",
+    "hierarchy": [
+      "altitudeCoverage"
+    ],
+    "definedBy": [
+      "DESIS.HSI.L1A",
+      "DESIS.HSI.L1A-Experimental",
+      "ProductItem"
+    ],
+    "type": "Double"
+  },
+  {
+    "label": "transcriptionLog",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "transcriptionQualityParameters",
+    "hierarchy": [
+      "downlinkParameters",
+      "replayInfo",
+      "replayListSecCh",
+      "replayItem"
+    ],
+    "definedBy": [
+      "TerraSAR-X_SSC"
+    ]
+  },
+  {
+    "label": "tsx-1_sar_l1b-hrspotlight-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1.SAR.L1b-High-Resolution-Spotlight"
+    ]
+  },
+  {
+    "label": "tsx-1_sar_l1b-scansar-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1.SAR.L1b-ScanSAR"
+    ]
+  },
+  {
+    "label": "tsx-1_sar_l1b-spotlight-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1.SAR.L1b-Spotlight"
+    ]
+  },
+  {
+    "label": "tsx-1_sar_l1b-stripmap-ati-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1.SAR.L1b-Stripmap-ATI"
+    ]
+  },
+  {
+    "label": "tsx-1_sar_l1b-stripmap-atis-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1.SAR.L1b-Stripmap-ATIS"
+    ]
+  },
+  {
+    "label": "tsx-1_sar_l1b-stripmap-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1.SAR.L1b-Stripmap"
+    ]
+  },
+  {
+    "label": "tsx-1_sar_l1b-stripmap-quadpol-guidePointer",
+    "hierarchy": [],
+    "definedBy": [
+      "TSX-1.SAR.L1b-Stripmap-Quadpol"
+    ]
+  },
+  {
+    "label": "umarfParameters",
+    "desc": "specific parameters required for upload to EUMETSAT central UMARF",
+    "hierarchy": [],
+    "definedBy": [
+      "Vertical-Column-Density"
+    ]
+  },
+  {
+    "id": "uniquedatatakeid0",
+    "label": "uniqueDatatakeID",
+    "desc": "",
+    "hierarchy": [],
+    "definedBy": [
+      "Base.TSX-1.SAR.L1B"
+    ],
+    "type": "Integer"
+  },
+  {
+    "id": "unique_id",
+    "label": "uniqueID",
+    "desc": "unique identifier",
+    "hierarchy": [],
+    "type": "Text"
+  },
+  {
+    "label": "upperCenterCoordinate",
+    "desc": "center coordinat of the first line of the product (L3_ATT_SCENE_U_C_LAT_KEY, L3_ATT_SCENE_L_C_LON_KEY)",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "upperLeft",
+    "desc": "upper left frame corner point",
+    "hierarchy": [
+      "geographicalParameters",
+      "geolocation",
+      "frameCoordinates"
+    ],
+    "definedBy": [
+      "SRTM-GTC"
+    ]
+  },
+  {
+    "label": "upperLeftCoordinate",
+    "desc": "upper left coordinate (L3_ATT_SCENE_U_L_LAT_KEY, L3_ATT_SCENE_U_L_LON_KEY)",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "label": "upperRightCoordinate",
+    "desc": "upper right coordinate (L3_ATT_SCENE_U_R_LAT_KEY, L3_ATT_SCENE_U_R_LON_KEY)",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ]
+  },
+  {
+    "id": "utcstarttime0",
+    "label": "utcStartTime",
+    "desc": "utcStartTime",
+    "hierarchy": [],
+    "definedBy": [
+      "AIRRS.GTC",
+      "AIRRS.INF",
+      "AIRRS.RGI",
+      "IRS-P6.AWiFS.P",
+      "IRS-P6.LISS-III.P",
+      "IRS-P6.LISS-IV.P-MONO",
+      "IRS-P6.LISS-IV.P-MULTISPECTRAL",
+      "IRS-R2.AWiFS.P",
+      "IRS-R2.LISS-III.P",
+      "IRS-R2.LISS-IV.P-MONO",
+      "IRS-R2.LISS-IV.P-MULTISPECTRAL",
+      "IRS1C1D-BaseProduct",
+      "SWACI.GROUNDBASED.REG.GB.L2",
+      "SWACI.GROUNDBASED.TEC.EU.L2",
+      "SWACI.GROUNDBASED.TEC.GB.L2",
+      "SWACI.SLAB-THICKNESS.L2"
+    ],
+    "type": "Date"
+  },
+  {
+    "id": "westboundingcoor1",
+    "label": "westBoundingCoordinate",
+    "desc": "westmost longitude",
+    "hierarchy": [
+      "sceneParameter"
+    ],
+    "definedBy": [
+      "ENVISAT.MERIS.VA.L3.BASE"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "westboundingcoor2",
+    "label": "westBoundingCoordinate",
+    "desc": "westmost longitude",
+    "hierarchy": [
+      "spatialCoverage",
+      "boundingBox"
+    ],
+    "definedBy": [
+      "ProductItem"
+    ],
+    "type": "Double"
+  },
+  {
+    "id": "westboundingcoor0",
+    "label": "westBoundingCoordinate",
+    "desc": "westmost longitude",
+    "hierarchy": [],
+    "definedBy": [
+      "SRTM-DEM",
+      "TDM-DEM-abstract",
+      "TDM-IDEM-abstract"
+    ],
+    "type": "Double"
+  }
+]

@@ -1,0 +1,48 @@
+1) CSVReader.class.php:
+
+Das ist vom Dozenten, es muss im selben Ordner liegen wie die anderen Skripte.
+Diese Klasse dient zum laden der .tsv Dateien.
+
+2) csvUploadToDatabase.php:
+
+Dieses Script benötigt den Namen der .tsv Datei (bzw. .json Datei) welche in
+die Datenbank geladen werden soll. Der Name muss ohne Endung in der Variable
+$filename übergeben werden. Die .tsv und die .json Datei müssen beide im
+upload Ordner liegen.
+Das Script legt in der Datenbank einen Index an welcher so heißt wie der
+Dateiname (ohne Endung).
+Das Script lädt die Konstanten aus der .json Datei indie Datenbank, entsprechend
+der Einträge aus der .json Datei.
+Das Script lädt die Daten aus der .tsv Datei in die Datenbank, entsprechend der
+Spaltennamen aus der .json Datei.
+Jedes Datum bekommt einen neuen Index "id".
+Das Script lädt bei jedem Durchlauf so viele Zeilen in die Datenbank wie in der
+Variable $numOfLinesToImport übergeben.
+
+3) deleteIndex.php:
+
+Mit diesem Script wird ein bestimmter Index gelöscht. Der Name des Index
+welcher gelöscht werden soll wird in der Variable $filename ohne die Dateiendung
+übergeben.
+
+4) deleteWholeDatabase:
+
+Damit wird alles (!) in der Datenbank gelöscht.
+
+5) reset.php:
+
+Das hat mit der "Session" zu tun. Damit soll ermöglicht werden, dass bei großen
+.tsv Dateien das laden in die Datenbank unterbrochen und wieder aufgenommen
+werden kann.
+Wenn eine neue Datei in die Datenbank geladen werden soll muss zuerst reset.php
+aufgerufen werden um wieder einen definierten Zustand der "Session" zu haben.
+
+
+NICHT MEHR AKTUELL, ABER ALS BEISPIELE VIELLEICHT NOCH GUT - im Ordner archive:
+
+- listFiles.php: listet alle Dateien im upload Ordner auf, auch das letzte
+Änderungsdatum wird gelistet. Dateien können über Radiobuttons ausgewählt
+werden. Über Buttons können Dateien gelöscht werden. Es können auch Dateien
+vom lokalen Rechner auf den Server geladen werden, in den upload Ordner.
+
+- upload.php: wird von listFiles.php aufgerufen.

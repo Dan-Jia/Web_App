@@ -1,0 +1,52 @@
+{
+  "columns": [
+    "unique_id",
+    "eowebproductid0",
+    "starttime1",
+    "stoptime1",
+    "time0",
+    "insertiontime0"
+  ],
+  "constants": [
+    {
+      "id": "mission0",
+      "value": "DESIS"
+    },
+    {
+      "id": "sensor0",
+      "value": "HSI"
+    },
+    {
+      "id": "code0",
+      "value": "L1A"
+    },
+    {
+      "id": "revision0",
+      "value": "00.01"
+    },
+    {
+      "id": "availability0",
+      "value": "PRELIMINARY"
+    },
+    {
+      "id": "orbitdirection0",
+      "value": "ASCENDING"
+    },
+    {
+      "id": "eowebproducttype0",
+      "value": "DESIS.HSI.L1A-Experimental"
+    },
+    {
+      "id": "sphere0",
+      "value": "EARTH"
+    },
+    {
+      "id": "spatiotempcovera0",
+      "value": "POLYGON((140.46368 38.5006828308105, 139.7745 35.9914016723633, 141.58295 35.7241134643555, 142.33224 38.2234687805176, 140.46368 38.5006828308105))"
+    },
+    {
+      "id": "site0",
+      "value": "NZ"
+    }
+  ]
+}

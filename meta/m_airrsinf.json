@@ -1,0 +1,48 @@
+{
+  "columns": [
+    "unique_id",
+    "revision0",
+    "utcstarttime0",
+    "description0",
+    "eowebproductid0",
+    "spatiotempcovera0",
+    "starttime1",
+    "stoptime1",
+    "time0",
+    "insertiontime0"
+  ],
+  "constants": [
+    {
+      "id": "mission0",
+      "value": "AIRRS"
+    },
+    {
+      "id": "sensor0",
+      "value": "F-SAR"
+    },
+    {
+      "id": "code0",
+      "value": "INF"
+    },
+    {
+      "id": "eowebproducttype0",
+      "value": "AIRRS.INF"
+    },
+    {
+      "id": "availability0",
+      "value": "EXISTING"
+    },
+    {
+      "id": "quality0",
+      "value": "APPROVED"
+    },
+    {
+      "id": "reliability0",
+      "value": "REAL"
+    },
+    {
+      "id": "site0",
+      "value": "D-DLR/OP/HR"
+    }
+  ]
+}

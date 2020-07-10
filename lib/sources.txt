@@ -1,0 +1,8 @@
+wicket:
+	https://github.com/arthur-e/Wicket
+
+Leaflet:
+	https://leafletjs.com/download.html
+
+D3
+	https://d3js.org/

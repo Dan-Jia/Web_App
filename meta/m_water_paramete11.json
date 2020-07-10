@@ -1,0 +1,218 @@
+{
+  "columns": [
+    "unique_id",
+    "eowebproductid0",
+    "starttime0",
+    "stoptime0",
+    "chlorophyllmin0",
+    "chlorophyllmax0",
+    "sedimentmin0",
+    "sedimentmax0",
+    "gelbstoffmin0",
+    "gelbstoffmax0",
+    "processorbuild0",
+    "processingdate1",
+    "starttime1",
+    "stoptime1",
+    "time0",
+    "insertiontime0"
+  ],
+  "constants": [
+    {
+      "id": "eowebproducttype0",
+      "value": "Water_Parameter_Lake_Constance_MERIS_daily_maps"
+    },
+    {
+      "id": "mission0",
+      "value": "ENVISAT"
+    },
+    {
+      "id": "sensor0",
+      "value": "MERIS"
+    },
+    {
+      "id": "code0",
+      "value": "L3.RWC_RTM"
+    },
+    {
+      "id": "region0",
+      "value": "LakeConstance"
+    },
+    {
+      "id": "gridgranularity0",
+      "value": "M1"
+    },
+    {
+      "id": "revision0",
+      "value": "01"
+    },
+    {
+      "id": "processorname2",
+      "value": "MERIS-VA L3 Processor"
+    },
+    {
+      "id": "processingversio1",
+      "value": "2.4"
+    },
+    {
+      "id": "processinglevel2",
+      "value": "3"
+    },
+    {
+      "id": "processingfacili1",
+      "value": "NZ"
+    },
+    {
+      "id": "compositetype1",
+      "value": "1d"
+    },
+    {
+      "id": "processorpluginn0",
+      "value": "L3GenericPlugIn"
+    },
+    {
+      "id": "processorpluginv0",
+      "value": "2.2"
+    },
+    {
+      "id": "latitude17",
+      "value": 47.6846
+    },
+    {
+      "id": "longitude17",
+      "value": 9.29205
+    },
+    {
+      "id": "mapprojectionnam0",
+      "value": "Lambert-Azimuthal-Equal-Area"
+    },
+    {
+      "id": "geoidradius0",
+      "value": 6371.03
+    },
+    {
+      "id": "geoidflattening0",
+      "value": 0
+    },
+    {
+      "id": "latitude16",
+      "value": 53.32971666
+    },
+    {
+      "id": "longitude16",
+      "value": 13.07256665
+    },
+    {
+      "id": "scenelineoffset0",
+      "value": -2162
+    },
+    {
+      "id": "scenecolumnoffse0",
+      "value": -1072
+    },
+    {
+      "id": "gridgranularity1",
+      "value": "M1"
+    },
+    {
+      "id": "resolution3",
+      "value": 0.3
+    },
+    {
+      "id": "latitude19",
+      "value": 47.9242
+    },
+    {
+      "id": "longitude19",
+      "value": 8.7585
+    },
+    {
+      "id": "latitude18",
+      "value": 47.9435
+    },
+    {
+      "id": "longitude18",
+      "value": 9.27273
+    },
+    {
+      "id": "latitude20",
+      "value": 47.9603
+    },
+    {
+      "id": "longitude20",
+      "value": 9.7873
+    },
+    {
+      "id": "latitude14",
+      "value": 47.4066
+    },
+    {
+      "id": "longitude14",
+      "value": 8.8021
+    },
+    {
+      "id": "latitude13",
+      "value": 47.4256
+    },
+    {
+      "id": "longitude13",
+      "value": 9.31115
+    },
+    {
+      "id": "latitude15",
+      "value": 47.4423
+    },
+    {
+      "id": "longitude15",
+      "value": 9.82053
+    },
+    {
+      "id": "northboundingcoo1",
+      "value": 47.9603
+    },
+    {
+      "id": "southboundingcoo1",
+      "value": 47.4066
+    },
+    {
+      "id": "westboundingcoor1",
+      "value": 8.7585
+    },
+    {
+      "id": "eastboundingcoor1",
+      "value": 9.82053
+    },
+    {
+      "id": "tiepointcolumnco0",
+      "value": 5
+    },
+    {
+      "id": "tiepointlinecoun0",
+      "value": 4
+    },
+    {
+      "id": "tiepointsubsampl0",
+      "value": 64
+    },
+    {
+      "id": "availability0",
+      "value": "EXISTING"
+    },
+    {
+      "id": "quality0",
+      "value": "APPROVED"
+    },
+    {
+      "id": "reliability0",
+      "value": "REAL"
+    },
+    {
+      "id": "spatiotempcovera0",
+      "value": "POLYGON((8.7585 47.9242, 9.7873 47.9603, 9.82053 47.4423, 8.8021 47.4066, 8.7585 47.9242))"
+    },
+    {
+      "id": "site0",
+      "value": "NSG"
+    }
+  ]
+}

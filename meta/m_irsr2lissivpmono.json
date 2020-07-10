@@ -1,0 +1,189 @@
+{
+  "columns": [
+    "unique_id",
+    "utcstarttime0",
+    "subscene_id0",
+    "date_of_dumping0",
+    "date_of_imaging0",
+    "path_no0",
+    "row_no1",
+    "satellite_altitu0",
+    "scene_center_lat0",
+    "scene_center_lon0",
+    "manual_cloud_sco6",
+    "manual_cloud_sco9",
+    "manual_cloud_sco0",
+    "manual_cloud_sco3",
+    "quality_score0",
+    "line_losses0",
+    "satellite_headin0",
+    "image_heading_an3",
+    "sun_azimuth0",
+    "sun_elevation0",
+    "imaging_orbit_no1",
+    "dumping_orbit_no0",
+    "liss3_path_no0",
+    "liss3_row_no0",
+    "actual_no_of_lin0",
+    "cb_img_fname1",
+    "region1",
+    "ppf_creation_tim0",
+    "tilt_angle0",
+    "cloud_score_aver2",
+    "ql_file_name0",
+    "ql_rawsize0",
+    "ql_no_of_rows0",
+    "ql_data_lr_r1",
+    "ql_data_ll_r1",
+    "frame_ul_lat0",
+    "frame_ul_lon0",
+    "frame_ur_lat0",
+    "frame_ur_lon0",
+    "frame_ll_lat0",
+    "frame_ll_lon0",
+    "frame_lr_lat0",
+    "frame_lr_lon0",
+    "identifier1",
+    "eowebproductid0",
+    "spatiotempcovera0",
+    "starttime1",
+    "centertime0",
+    "stoptime1",
+    "time0",
+    "insertiontime0"
+  ],
+  "constants": [
+    {
+      "id": "mission0",
+      "value": "IRS-R2"
+    },
+    {
+      "id": "sensor0",
+      "value": "LISS-IV"
+    },
+    {
+      "id": "code0",
+      "value": "P"
+    },
+    {
+      "id": "sensor_mode0",
+      "value": "MN"
+    },
+    {
+      "id": "pass_type0",
+      "value": "PLD"
+    },
+    {
+      "id": "actual_pixels0",
+      "value": 512
+    },
+    {
+      "id": "correction_code0",
+      "value": 1
+    },
+    {
+      "id": "channel0",
+      "value": "3"
+    },
+    {
+      "id": "formatversion0",
+      "value": "2.0 R2"
+    },
+    {
+      "id": "grnd_samp_dist_a3",
+      "value": 5.858
+    },
+    {
+      "id": "grnd_samp_dist_a0",
+      "value": 5.833
+    },
+    {
+      "id": "ql_no_of_columns0",
+      "value": 512
+    },
+    {
+      "id": "ql_no_of_bands0",
+      "value": 1
+    },
+    {
+      "id": "ql_interleave0",
+      "value": 0
+    },
+    {
+      "id": "ql_logo_ul_r1",
+      "value": 500
+    },
+    {
+      "id": "ql_logo_ul_c1",
+      "value": 0
+    },
+    {
+      "id": "ql_logo_ur_r1",
+      "value": 500
+    },
+    {
+      "id": "ql_logo_ur_c1",
+      "value": 511
+    },
+    {
+      "id": "ql_logo_lr_r1",
+      "value": 568
+    },
+    {
+      "id": "ql_logo_lr_c1",
+      "value": 511
+    },
+    {
+      "id": "ql_logo_ll_r1",
+      "value": 568
+    },
+    {
+      "id": "ql_logo_ll_c1",
+      "value": 0
+    },
+    {
+      "id": "ql_data_ul_r1",
+      "value": 0
+    },
+    {
+      "id": "ql_data_ul_c1",
+      "value": 0
+    },
+    {
+      "id": "ql_data_ur_r1",
+      "value": 0
+    },
+    {
+      "id": "ql_data_ur_c1",
+      "value": 511
+    },
+    {
+      "id": "ql_data_lr_c1",
+      "value": 511
+    },
+    {
+      "id": "ql_data_ll_c1",
+      "value": 0
+    },
+    {
+      "id": "eowebproducttype0",
+      "value": "IRS-R2.LISS-IV.P-MONO"
+    },
+    {
+      "id": "availability0",
+      "value": "EXISTING"
+    },
+    {
+      "id": "quality0",
+      "value": "APPROVED"
+    },
+    {
+      "id": "reliability0",
+      "value": "REAL"
+    },
+    {
+      "id": "site0",
+      "value": "GAF AG"
+    }
+  ]
+}

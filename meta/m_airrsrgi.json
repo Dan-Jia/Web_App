@@ -1,0 +1,45 @@
+{
+  "columns": [
+    "unique_id",
+    "sensor0",
+    "utcstarttime0",
+    "revision0",
+    "description0",
+    "eowebproductid0",
+    "spatiotempcovera0",
+    "starttime1",
+    "stoptime1",
+    "time0",
+    "insertiontime0"
+  ],
+  "constants": [
+    {
+      "id": "mission0",
+      "value": "AIRRS"
+    },
+    {
+      "id": "code0",
+      "value": "RGI"
+    },
+    {
+      "id": "eowebproducttype0",
+      "value": "AIRRS.RGI"
+    },
+    {
+      "id": "availability0",
+      "value": "EXISTING"
+    },
+    {
+      "id": "quality0",
+      "value": "APPROVED"
+    },
+    {
+      "id": "reliability0",
+      "value": "REAL"
+    },
+    {
+      "id": "site0",
+      "value": "D-DLR/OP/HR"
+    }
+  ]
+}

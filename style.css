@@ -1,0 +1,152 @@
+body {
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+  font-display: fallback;
+}
+
+#title {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 24pt;
+  color: Black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background-color: #006666;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 30px;
+  height: 120px;
+  color: white;
+}
+
+nav {
+  margin-top: 5px;
+  float: left;
+  height: 1800px;
+  width: 15%;
+  background: #006666;
+  padding: 20px;
+}
+
+#subtitel {
+  color: White;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  height: auto;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+
+article {
+  float: left;
+  margin-top: 5px;
+  padding: 20px;
+  width: 85%;
+}
+
+a {
+  text-decoration: none;
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+
+a:link, a:visited {
+  color: White;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#tblData {
+  font-weight: normal;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  color: Black;
+  border-collapse: collapse;
+}
+
+#tblData th {
+  font-weight: bold;
+  background-color: #B0B0B0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+}
+
+#Titel {
+  color: White;
+  font-family: Arial, sans-serif;
+  font-size: 26pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-weight: bold;
+}
+
+h2 {
+  margin-top: 0px;
+  color: White;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+}
+
+h3 {
+  color: Black;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  margin-bottom: 35px;
+}
+
+#navTitle {
+  color: White;
+  font-family: Arial, sans-serif;
+  font-size: 12pt;
+  margin-bottom: 35px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
+
+#tblData td, #tblData th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#main {
+  font-style: normal;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  color: Black;
+}
+
+#mbold {
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+  font-size: 9pt;
+  color: Black;
+}
